@@ -86,32 +86,33 @@ This project showcases advanced technologies like Google Maps API, Firebase, mac
     
 📸 Screenshots
 
-Home Screen	Product Details	Chat Feature
-🗺️ Project Structure
-bash
-Copiar código
-/app
-│
-├── /src
-│   ├── /main
-│   │   ├── /java/com/yourpackage
-│   │   │   ├── MainActivity.java
-│   │   │   ├── ProductActivity.java
-│   │   │   ├── ChatActivity.java
-│   │   │   └── ...
-│   │   └── /res
-│   │       ├── /layout
-│   │       ├── /drawable
-│   │       ├── /values
-│   │       └── ...
-├── /build.gradle
-└── /google-services.json
-🤖 Testing
-Unit Testing: Tests for business logic and algorithms are located in the /test folder.
-UI Testing: Espresso is used for UI testing. Run the following command:
-bash
-Copiar código
-./gradlew connectedAndroidTest
+   Home Screen	Product Details	Chat Feature
+   🗺️ Project Structure
+   bash
+   Copiar código
+   /app
+   │
+   ├── /src
+   │   ├── /main
+   │   │   ├── /java/com/yourpackage
+   │   │   │   ├── MainActivity.java
+   │   │   │   ├── ProductActivity.java
+   │   │   │   ├── ChatActivity.java
+   │   │   │   └── ...
+   │   │   └── /res
+   │   │       ├── /layout
+   │   │       ├── /drawable
+   │   │       ├── /values
+   │   │       └── ...
+   ├── /build.gradle
+   └── /google-services.json
+   🤖 Testing
+   Unit Testing: Tests for business logic and algorithms are located in the /test folder.
+   UI Testing: Espresso is used for UI testing. Run the following command:
+   bash
+   Copiar código
+   ./gradlew connectedAndroidTest
+   
 🧑‍💻 Contributing
 Contributions are welcome! To contribute:
 
@@ -125,7 +126,8 @@ Contributions are welcome! To contribute:
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 🙌 Acknowledgements
-Google Maps API for geolocation services.
-Firebase for backend and real-time database services.
-Stripe for payment integration.
-TensorFlow Lite for machine learning recommendations.
+
+   * Google Maps API for geolocation services.
+   * Firebase for backend and real-time database services.
+   * Stripe for payment integration.
+   * TensorFlow Lite for machine learning recommendations.
