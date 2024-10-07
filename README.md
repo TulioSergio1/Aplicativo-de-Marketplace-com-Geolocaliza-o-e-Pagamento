@@ -113,11 +113,11 @@ This project showcases advanced technologies like Google Maps API, Firebase, mac
       
    🤖 Testing
    
-      Unit Testing: Tests for business logic and algorithms are located in the /test folder.
-      UI Testing: Espresso is used for UI testing. Run the following command:
-      bash
-      Copiar código
-      ./gradlew connectedAndroidTest
+   Unit Testing: Tests for business logic and algorithms are located in the /test folder.
+   UI Testing: Espresso is used for UI testing. Run the following command:
+   bash
+   Copiar código
+   ./gradlew connectedAndroidTest
    
 🧑‍💻 Contributing
 Contributions are welcome! To contribute:
