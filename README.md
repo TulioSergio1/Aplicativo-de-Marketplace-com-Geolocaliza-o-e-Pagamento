@@ -86,32 +86,38 @@ This project showcases advanced technologies like Google Maps API, Firebase, mac
     
 📸 Screenshots
 
-   Home Screen	Product Details	Chat Feature
+   * Home Screen
+   * Product Details
+   * Chat Feature
+     
    🗺️ Project Structure
-   bash
-   Copiar código
-   /app
-   │
-   ├── /src
-   │   ├── /main
-   │   │   ├── /java/com/yourpackage
-   │   │   │   ├── MainActivity.java
-   │   │   │   ├── ProductActivity.java
-   │   │   │   ├── ChatActivity.java
-   │   │   │   └── ...
-   │   │   └── /res
-   │   │       ├── /layout
-   │   │       ├── /drawable
-   │   │       ├── /values
-   │   │       └── ...
-   ├── /build.gradle
-   └── /google-services.json
+   
+      bash
+      Copiar código
+      /app
+      │
+      ├── /src
+      │   ├── /main
+      │   │   ├── /java/com/yourpackage
+      │   │   │   ├── MainActivity.java
+      │   │   │   ├── ProductActivity.java
+      │   │   │   ├── ChatActivity.java
+      │   │   │   └── ...
+      │   │   └── /res
+      │   │       ├── /layout
+      │   │       ├── /drawable
+      │   │       ├── /values
+      │   │       └── ...
+      ├── /build.gradle
+      └── /google-services.json
+      
    🤖 Testing
-   Unit Testing: Tests for business logic and algorithms are located in the /test folder.
-   UI Testing: Espresso is used for UI testing. Run the following command:
-   bash
-   Copiar código
-   ./gradlew connectedAndroidTest
+   
+      Unit Testing: Tests for business logic and algorithms are located in the /test folder.
+      UI Testing: Espresso is used for UI testing. Run the following command:
+      bash
+      Copiar código
+      ./gradlew connectedAndroidTest
    
 🧑‍💻 Contributing
 Contributions are welcome! To contribute:
